@@ -88,6 +88,7 @@ task :compile => [:clean, :version] do
   copyOutputFiles "src/fubu/bin/#{COMPILE_TARGET}", "Bottles*.{dll,pdb,exe}", props[:stage]
   
   sh "bottles create-pak fubumvc-deployers build/fubumvc-deployers.zip -target #{COMPILE_TARGET}"
+  sh "bottles create-pak fubumvc-diagnostics build/fubumvc-diagnostics.zip -target #{COMPILE_TARGET}"
 end
 
 
