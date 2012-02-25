@@ -37,6 +37,7 @@
     <file src="..\..\src\SerenityRunner\bin\release\*.dll" target="tools" />
     <file src="..\..\src\SerenityRunner\bin\release\SerenityRunner.exe.config" target="tools" />
     <file src="..\..\src\SerenityRunner\bin\release\*.exe" target="tools" />
+    <file src="..\..\src\SerenityRunner\bin\darcy\*.exe" target="tools" />
 
     <file src="..\..\src\SerenityRunner\bin\release\FubuKayak.*" target="tools" />
     <file src="..\..\src\SerenityRunner\bin\release\FubuMVC.OwinHost.*" target="tools" />
